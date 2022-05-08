@@ -100,7 +100,7 @@ const config = {
             activeBaseRegex: `/explanations/`,
           },
           {
-            to: "/changelog/2021.4",
+            to: "/changelog/2021-4",
             label: "更新日志",
             position: "left",
             activeBaseRegex: `/changelog/`,
@@ -129,7 +129,7 @@ const config = {
               },
               {
                 label: '更新日志',
-                to: '、changelog/2021.4',
+                to: 'changelog/2021-4',
               },
               {
                 label: '开发计划',

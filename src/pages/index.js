@@ -90,7 +90,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="card__footer">
-                    <Link to="/changelog/2021.4" class="button button--outline button--primary">进入</Link>
+                    <Link to="/changelog/2021-4" class="button button--outline button--primary">进入</Link>
                   </div>
                 </div>
               </div>

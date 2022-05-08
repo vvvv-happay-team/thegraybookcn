@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/lavalse/thegraybookcn/',
+          editUrl: 'https://github.com/vvvv-happay-team/thegraybookcn/',
         },
         blog: {
           showReadingTime: true,

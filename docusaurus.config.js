@@ -72,6 +72,16 @@ const config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'translation',
+        path: 'translation',
+        routeBasePath: 'translation',
+        sidebarPath: require.resolve('./sidebarsTranslation.js'),
+        // ... other options
+      },
+    ],
   ],
 
   themeConfig:
@@ -111,6 +121,12 @@ const config = {
             position: "left",
             activeBaseRegex: `/roadmap/`,
           },
+          // {
+          //   to: "/translation/about-translation",
+          //   label: "关于翻译",
+          //   position: "left",
+          //   activeBaseRegex: `/translation/`,
+          // },
         ],
       },
       footer: {
@@ -135,6 +151,10 @@ const config = {
                 label: '开发计划',
                 to: '/roadmap/planned-releases',
               },
+              {
+                label: '关于翻译',
+                to: '/translation/about-translation',
+              },
             ],
           },
           {
@@ -153,6 +173,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/vvvv-happay-team/thegraybookcn',
               },
+              {
+                label: '参与翻译',
+                href: '/translation/how-to-join',
+              }
             ],
           },
         ],

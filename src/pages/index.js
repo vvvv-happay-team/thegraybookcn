@@ -51,13 +51,6 @@ export default function Home() {
             <div class="row margin-vert--xl">
               <div class="col col--3">
                 <div class="card margin-bottom--md">
-                  <div class="card__image">
-                    <img
-                      src="./img/docs.png"
-                      alt="Image alt text"
-                      title="Logo Title Text 1"
-                    />
-                  </div>
                   <div class="card__header">
                     <h3>文档</h3>
                   </div>
@@ -73,13 +66,6 @@ export default function Home() {
               </div>
               <div class="col col--3">
                 <div class="card margin-bottom--md">
-                  <div class="card__image">
-                    <img
-                      src="./img/docs.png"
-                      alt="Image alt text"
-                      title="Logo Title Text 1"
-                    />
-                  </div>
                   <div class="card__header">
                     <h3>解释</h3>
                   </div>
@@ -95,13 +81,6 @@ export default function Home() {
               </div>
               <div class="col col--3">
                 <div class="card margin-bottom--md">
-                  <div class="card__image">
-                    <img
-                      src="./img/docs.png"
-                      alt="Image alt text"
-                      title="Logo Title Text 1"
-                    />
-                  </div>
                   <div class="card__header">
                     <h3>更新日志</h3>
                   </div>
@@ -117,13 +96,6 @@ export default function Home() {
               </div>
               <div class="col col--3">
                 <div class="card margin-bottom--md">
-                  <div class="card__image">
-                    <img
-                      src="./img/docs.png"
-                      alt="Image alt text"
-                      title="Logo Title Text 1"
-                    />
-                  </div>
                   <div class="card__header">
                     <h3>开发计划</h3>
                   </div>

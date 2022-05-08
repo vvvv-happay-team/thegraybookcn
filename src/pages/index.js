@@ -71,76 +71,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class="col col--4">
-                <div class="card">
-                  <div class="card__image">
-                    <img
-                      src="./img/studygroup.png"
-                      alt="Image alt text"
-                      title="Logo Title Text 1"
-                    />
-                  </div>
-                  <div class="card__header">
-                    <h3>快乐小组</h3>
-                  </div>
-                  <div class="card__body">
-                    <p>
-                      一个相互分享的学习小组，定期举行活动，分享学习心得。
-                    </p>
-                  </div>
-                  <div class="card__footer">
-                    <Link to="/studygroup/" class="button button--outline button--primary">进入</Link>
-                  </div>
-                </div>
-              </div>
               <div class="col col--4"></div>
             </div>
           </div>
-          <hr></hr>
-          <div className='margin-vert--lg'>
-            <p>官方资源</p>
-            <ol className={styles.ol}>
-              <li>
-                <h3>
-                  <a href="https://vvvv.org/" target="_blank">
-                    vvvv.org
-                  </a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <a href="https://visualprogramming.net/" target="_blank">
-                    visualprogramming.net
-                  </a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <a href="https://thegraybook.vvvv.org/" target="_blank">
-                    the gray book
-                  </a>
-                </h3>
-              </li>
-            </ol>
-            <p>其他资源</p>
-            <ol className={styles.ol}>
-              <li>
-                <h3>
-                  <a href="https://thenodeinstitute.org/" target="_blank">
-                    The NODE Institute
-                  </a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <a href="https://www.thefuselab.io/" target="_blank">
-                    FUSE library
-                  </a>
-                </h3>
-              </li>
-            </ol>
-          </div>
-          <hr></hr>
         </div>
       </main>
     </Layout>

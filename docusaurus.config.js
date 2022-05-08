@@ -41,16 +41,16 @@ const config = {
   ],
 
   plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'studygroup',
-        path: 'studygroup',
-        routeBasePath: 'studygroup',
-        sidebarPath: require.resolve('./sidebarsStudyGroup.js'),
-        // ... other options
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'studygroup',
+    //     path: 'studygroup',
+    //     routeBasePath: 'studygroup',
+    //     sidebarPath: require.resolve('./sidebarsStudyGroup.js'),
+    //     // ... other options
+    //   },
+    // ],
   ],
 
   themeConfig:
@@ -72,7 +72,6 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/studygroup', label: '快乐小组', position: 'left'},
         ],
       },
       footer: {

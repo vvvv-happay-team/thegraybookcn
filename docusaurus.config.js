@@ -41,16 +41,37 @@ const config = {
   ],
 
   plugins: [
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'studygroup',
-    //     path: 'studygroup',
-    //     routeBasePath: 'studygroup',
-    //     sidebarPath: require.resolve('./sidebarsStudyGroup.js'),
-    //     // ... other options
-    //   },
-    // ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'explanations',
+        path: 'explanations',
+        routeBasePath: 'explanations',
+        sidebarPath: require.resolve('./sidebarsExplanations.js'),
+        // ... other options
+      },
+
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changelog',
+        path: 'changelog',
+        routeBasePath: 'changelog',
+        sidebarPath: require.resolve('./sidebarsChangelog.js'),
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'roadmap',
+        path: 'roadmap',
+        routeBasePath: 'roadmap',
+        sidebarPath: require.resolve('./sidebarsRoadmap.js'),
+        // ... other options
+      },
+    ],
   ],
 
   themeConfig:
@@ -72,6 +93,24 @@ const config = {
             position: 'left',
             label: '文档',
           },
+          {
+            to: "/explanations/the-language",
+            label: "解释",
+            position: "left",
+            activeBaseRegex: `/explanations/`,
+          },
+          {
+            to: "/changelog/2021.4",
+            label: "更新日志",
+            position: "left",
+            activeBaseRegex: `/changelog/`,
+          },
+          {
+            to: "/roadmap/planned-releases",
+            label: "开发计划",
+            position: "left",
+            activeBaseRegex: `/roadmap/`,
+          },
         ],
       },
       footer: {
@@ -84,21 +123,35 @@ const config = {
                 label: 'vvvv gamma 中文文档',
                 to: '/docs/intro',
               },
+              {
+                label: 'VL语言解释',
+                to: '/explanations/the-language',
+              },
+              {
+                label: '更新日志',
+                to: '、changelog/2021.4',
+              },
+              {
+                label: '开发计划',
+                to: '/roadmap/planned-releases',
+              },
             ],
           },
           {
             title: 'Community',
+            items:[
+              {
+                label:"中文论坛",
+                to:"https://nodenodenode.net/",
+              }
+            ]
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/lavalse/thegraybookcn',
+                href: 'https://github.com/vvvv-happay-team/thegraybookcn',
               },
             ],
           },

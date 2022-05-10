@@ -9,13 +9,13 @@ sidebar_position: 1
 
 ## 如何提交我的翻译
 
-1. clone 代码仓库到本地系统，安装本地环境
-2. 为你的翻译新建一个分支，命名参照 
+1. `fork` 代码仓库到你的仓库，`clone` 至本地，安装本地环境
+2. 为你的翻译新建一个分支，命名请参照 
    1. 新建翻译章节：`docs/[你的翻译章节]`,如 `docs/docs-language-nodes`
    2. 修正翻译：`fix/[你的翻译章节-修正内容]`,如 `fix/docs-language-nodes-typo`
 3. 在本地环境中检查翻译内容及格式
 4. 提交 commit 并推送该分支到 origin
-5. 创建 PR，命名参照分支名，如 `docs: add docs-language-nodes`，在 PR 说明中简述工作内容
+5. 创建 PR，命名参照分支名，如 `docs: add translation of docs-language-nodes`，在 PR 说明中简述工作内容
 6. 等待 PR Review
 7. 如果通过 Review，你的翻译将会发布至在线站点；如有问题将回复修改意见
 

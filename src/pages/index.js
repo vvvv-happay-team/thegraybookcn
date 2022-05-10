@@ -30,11 +30,11 @@ export default function Home() {
             <h2 className='margin-vert--lg'>欢迎来到 vvvv gamma 中文文档</h2>
             <div className={styles.description}>
               <p>
-                本站的是
+                本站是&nbsp;
                 <a href="https://thegraybook.vvvv.org/" target="_blank">
-                  the gray book
+                the gray book
                 </a>
-                的中文站点。分享资讯，方便华语世界用户学习分享。同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看<a
+                &nbsp;的中文站点。分享资讯，方便华语世界用户学习分享。同时如果你也有兴趣交流或者参与翻译工作，请随时联系我，同时请查看<a
                   href="https://github.com/vvvv-happay-team/thegraybookcn"
                   rel="noopener noreferrer"
                   target="_blank"

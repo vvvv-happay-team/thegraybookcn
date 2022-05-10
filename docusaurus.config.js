@@ -153,7 +153,7 @@ const config = {
               },
               {
                 label: '关于翻译',
-                to: '/translation/about-translation',
+                to: '/translation/how-to-join',
               },
             ],
           },

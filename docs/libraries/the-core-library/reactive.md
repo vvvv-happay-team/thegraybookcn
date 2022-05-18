@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 事件处理
 
-用于处理事件的节点是 `Reactive` 分类下的 `ForEach` 区块。这个区块允许你在其中放置任何节点，并能记住两个事件之间的任何数据。同事还有一个包含 `Keep` 的版本，可以使用布尔输出过滤事件。这个区块与用于 Spread 的 `ForEach` 非常相似，区别在于输入输出是跟随时间的事件值而不是 Spread 中的 Slice。
+用于处理事件的节点是 `Reactive` 分类下的 `ForEach` 区块。这个区块允许你在其中放置任何节点，并能记住两个事件之间的任何数据。同时还有一个包含 `Keep` 的版本，可以使用布尔输出过滤事件。这个区块与用于 Spread 的 `ForEach` 非常相似，区别在于输入输出是跟随时间的事件值而不是 Spread 中的 Slice。
 
 ![Refresh web data every 30 seconds in the background and pass the result on to the mainloop](https://thegraybook.vvvv.org/images/libraries/vl-libraries-reactive-refreshEvery30secInBackground.PNG "Refresh web data every 30 seconds in the background and pass the result on to the mainloop")
 *后台每30秒获取一次 web 数据，并将结果传递给 `mainloop`*

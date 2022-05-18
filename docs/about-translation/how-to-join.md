@@ -3,6 +3,9 @@ title: 如何加入
 sidebar_position: 1
 ---
 
+当然翻译的过程往往就是信息丢失的过程，很难很精确地传递原本的意思。
+但是我相信本着深入浅出与抛砖引玉的信念，多少是个好的开始。
+
 ## 站点仓库
 
 本站点仓库托管于 Github [thegraybookcn](https://github.com/vvvv-happay-team/thegraybookcn)

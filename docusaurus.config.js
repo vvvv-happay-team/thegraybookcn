@@ -72,16 +72,6 @@ const config = {
         // ... other options
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'translation',
-        path: 'translation',
-        routeBasePath: 'translation',
-        sidebarPath: require.resolve('./sidebarsTranslation.js'),
-        // ... other options
-      },
-    ],
   ],
 
   themeConfig:
@@ -151,10 +141,6 @@ const config = {
                 label: '开发计划',
                 to: '/roadmap/planned-releases',
               },
-              {
-                label: '关于翻译',
-                to: '/translation/how-to-join',
-              },
             ],
           },
           {
@@ -175,7 +161,7 @@ const config = {
               },
               {
                 label: '参与翻译',
-                href: '/translation/how-to-join',
+                href: '/docs/about-translation/how-to-join',
               }
             ],
           },

@@ -49,3 +49,17 @@ shader MyFx_TextureFX : FilterBase
 系统中已经有非常丰富的着色器你可以直接[继承](https://thegraybook.vvvv.org/reference/libraries/3d/shaders.html#inheritance)。并且允许多重继承！
 - 这些着色器与Stride一起发布：使用[Shader Explorer](https://github.com/tebjan/Stride.ShaderExplorer)来查看可以继承的着色器(需要安装[Stride](https://www.stride3d.net/download/))
 - 着色器与VL.Stride一起发布：请查看这些.sdsl文件，路径是C:\Program Files\vvvv\vvvv_gamma_...\lib\packs\VL.Stride.Runtime...\stride\Assets\Effects
+
+### 推荐的基础着色器
+
+### TextureFX
+TextureFX派生自ImageEffectShader、SpriteBase、ShaderBase、Texturing和ShaderUtils。
+
+### FilterBase
+
+从Texture派生出来，允许你使用Mix()函数，可以输入两个可切换的贴图和一个驱动参数。
+
+### MixerBase
+
+### ShaderUtils
+

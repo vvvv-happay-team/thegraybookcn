@@ -57,9 +57,23 @@ TextureFX派生自ImageEffectShader、SpriteBase、ShaderBase、Texturing和Shad
 
 ### FilterBase
 
-从Texture派生出来，允许你使用Mix()函数，可以输入两个可切换的贴图和一个驱动参数。
+从TextureFX继承派生出来，允许你使用Mix()函数，可以输入两个可切换的贴图和一个驱动参数。
+
+:::note
+
+使用 ```tex0col``` 输入并不是强制的，你还是可以添加其他的贴图输入到采样器的。
+
+:::
 
 ### MixerBase
+
+从TextureFX继承派生出来，允许你实现一个Mix()的函数，可以让实现在两个纹理之间根据参数的变换来切换。
+
+:::note
+
+使用 ```tex0col``` 和 ```tex1col``` 输入不是强制性的，您仍然可以添加其他纹理输入以进行采样。
+
+:::
 
 ### ShaderUtils
 

@@ -52,7 +52,7 @@ export default function Home() {
               <div class="col col--3">
                 <div class="card margin-bottom--md">
                   <div class="card__header">
-                    <h3>文档</h3>
+                    <h3>文档（Notion）</h3>
                   </div>
                   <div class="card__body">
                     <p>
@@ -60,7 +60,9 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="card__footer">
-                    <Link to="/docs/getting-started" class="button button--outline button--primary">进入</Link>
+                    <a href="https://lianjieshe.notion.site/lianjieshe/Gamma-c1eff39c7cd140f4adfe0fad71c15080" class="button button--outline button--primary" target="_blank">
+                      查看
+                    </a>
                   </div>
                 </div>
               </div>

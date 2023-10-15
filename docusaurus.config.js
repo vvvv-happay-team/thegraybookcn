@@ -87,30 +87,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'getting-started/index',
-            position: 'left',
-            label: '文档',
-          },
-          {
-            to: "/explanations/the-language",
-            label: "解释",
-            position: "left",
-            activeBaseRegex: `/explanations/`,
-          },
-          {
-            to: "/changelog/2021-4",
-            label: "更新日志",
-            position: "left",
-            activeBaseRegex: `/changelog/`,
-          },
-          {
-            to: "/roadmap/planned-releases",
-            label: "开发计划",
-            position: "left",
-            activeBaseRegex: `/roadmap/`,
-          },
           // {
           //   to: "/translation/about-translation",
           //   label: "关于翻译",
@@ -125,22 +101,6 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'vvvv gamma 中文文档',
-                to: '/docs/intro',
-              },
-              {
-                label: 'VL语言解释',
-                to: '/explanations/the-language',
-              },
-              {
-                label: '更新日志',
-                to: 'changelog/2021-4',
-              },
-              {
-                label: '开发计划',
-                to: '/roadmap/planned-releases',
-              },
             ],
           },
           {
